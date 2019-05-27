@@ -27,7 +27,7 @@ results_frame(..., standard_errors = NULL, t.values = FALSE,
 Currently, the functions creates the following statistics, use the label in parentheses to omit the respective statistic: Number of observations (N), Adjusted R-squared (Adj. R-squared), R-squared (R-squared), Degrees of freedom (DF), model type (model type), Log-likelihood (LL).
 By default, R-squared and DF are omitted.}
 
-\item{stars}{If TRUE, stars indicating significance is printed in the table. Currently prints 5 % (*), 1 % (**) and 0.1 % (***). Defaults to TRUE.}
+\item{stars}{If TRUE, stars indicating significance is printed in the table. Currently prints 5 % \(\*\), 1 % \(\*\*\) and 0.1 % \(\*\*\*\). Defaults to TRUE.}
 
 \item{intercept.placement}{Should the intercept be printed at the "top" of the table, or "bottom"? Defaults to "bottom".}
 
